@@ -8,13 +8,6 @@ import (
 	"log"
 )
 
-// @contact.name API Support
-// @contact.url http://www.swagger.io/support
-// @contact.email support@swagger.io
-// @license.name Apache 2.0
-// @license.url http://www.apache.org/licenses/LICENSE-2.0.html
-// @termsOfService http://swagger.io/terms/
-
 func main() {
 	err := godotenv.Load()
 	if err != nil {
@@ -25,7 +18,7 @@ func main() {
 		"Checkout my Github: https://github.com/MicBun\n\n" +
 		"Checkout my Linkedin: https://www.linkedin.com/in/MicBun\n\n"
 
-	docs.SwaggerInfo.Title = "Activity Tracking API"
+	docs.SwaggerInfo.Title = "Family Asset API"
 	docs.SwaggerInfo.Description = description
 
 	database := config.ConnectDataBase()

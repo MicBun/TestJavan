@@ -2,6 +2,7 @@
 TestJavan
 
 This app use swagger for api documentation
+See Screenshot folder for swagger screenshot
 
 ---
 ### How to use with Go Build
