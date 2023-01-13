@@ -21,8 +21,7 @@ func main() {
 		log.Println("Error loading .env file, using default env")
 	}
 
-	description := "This is a simple todo list.\n\n" +
-		"To get Bearer Token, first you need to register then login.\n\n" +
+	description := "This is a simple family asset for JavanTest.\n\n" +
 		"Checkout my Github: https://github.com/MicBun\n\n" +
 		"Checkout my Linkedin: https://www.linkedin.com/in/MicBun\n\n"
 
