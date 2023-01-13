@@ -131,7 +131,7 @@ paths:
             type: string
       summary: Delete a asset
       tags:
-      - todos
+      - Asset
     put:
       consumes:
       - application/json

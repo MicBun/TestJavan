@@ -72,7 +72,7 @@ func UpdateAsset(ctx *gin.Context) {
 // DeleteAsset godoc
 // @Summary Delete a asset
 // @Description Delete a asset
-// @Tags todos
+// @Tags Asset
 // @Accept  json
 // @Produce  json
 // @Param id path int true "Asset ID"

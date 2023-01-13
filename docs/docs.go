@@ -134,7 +134,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "todos"
+                    "Asset"
                 ],
                 "summary": "Delete a asset",
                 "parameters": [
